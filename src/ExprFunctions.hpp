@@ -1,3 +1,5 @@
+typedef std::string string; //XXX DON'T REMOVE
+
 inline double rng() {
     std::random_device rd;
     std::mt19937 gen(rd());
