@@ -10,7 +10,7 @@ inline bool greater_than_three (double x) {
   return x > 3;
 }
 
-inline string reverse(string str){
+inline std::string reverse(std::string str){
   std::reverse(str.begin(), str.end());
   return str;
 }
